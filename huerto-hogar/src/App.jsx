@@ -22,7 +22,8 @@ import AdminPedidos from "./pages/AdminPedidos";
 import RegistroUsuarioAdmin from "./pages/RegistroUsuarioAdmin";
 import PedidoEntregado from "./pages/PedidoEntregado";
 import PedidoEnCamino from "./pages/PedidoEnCamino";
-
+import AdminProductos from "./pages/AdminProductos";
+import AdminEditar from "./pages/AdminEditar";
 
 
 
@@ -67,6 +68,8 @@ function App() {
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         <Route path="/admin/pedidos" element={<AdminPedidos />} />
         <Route path="/admin/registro-usuario" element={<RegistroUsuarioAdmin />} />
+        <Route path="/admin/productos" element={<AdminProductos />} />
+        <Route path="/admin/editar/" element={<AdminEditar />} />
 
 
         
