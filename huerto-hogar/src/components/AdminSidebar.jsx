@@ -28,11 +28,20 @@ function AdminSidebar() {
             <i className="bi bi-speedometer2 me-2"></i>Dashboard
           </Link>
         </li>
+
         <li>
           <Link to="/admin/pedidos" className={linkClass("/admin/pedidos")}>
             <i className="bi bi-bag-check me-2"></i>Pedidos
           </Link>
         </li>
+
+        {/* Nueva opción: Productos */}
+        <li>
+          <Link to="/admin/productos" className={linkClass("/admin/productos")}>
+            <i className="bi bi-box me-2"></i>Productos
+          </Link>
+        </li>
+
         <li>
           <a href="#" className="nav-link text-dark">
             <i className="bi bi-box-seam me-2"></i>Inventario
