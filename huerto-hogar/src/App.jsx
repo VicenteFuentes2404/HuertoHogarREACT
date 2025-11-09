@@ -24,6 +24,7 @@ import PedidoEntregado from "./pages/PedidoEntregado";
 import PedidoEnCamino from "./pages/PedidoEnCamino";
 import AdminProductos from "./pages/AdminProductos";
 import AdminEditar from "./pages/AdminEditar";
+import AdminAgregar from "./pages/AdminAgregar";
 
 
 
@@ -70,6 +71,8 @@ function App() {
         <Route path="/admin/registro-usuario" element={<RegistroUsuarioAdmin />} />
         <Route path="/admin/productos" element={<AdminProductos />} />
         <Route path="/admin/editar/" element={<AdminEditar />} />
+        <Route path="/admin/crear" element={<AdminAgregar />} />
+
 
 
         
