@@ -70,7 +70,8 @@ function App() {
         <Route path="/admin/pedidos" element={<AdminPedidos />} />
         <Route path="/admin/registro-usuario" element={<RegistroUsuarioAdmin />} />
         <Route path="/admin/productos" element={<AdminProductos />} />
-        <Route path="/admin/editar/" element={<AdminEditar />} />
+        <Route path="/admin/editar/:id" element={<AdminEditar />} />
+
         <Route path="/admin/crear" element={<AdminAgregar />} />
 
 
